@@ -11,9 +11,8 @@ function App() {
     const handleRegexSubmit = async (regex) => {
         setLoading(true);
         try {
-            const response = buildGrammar(regex)
-            const data = await response.json();
-            setResult(data);
+            const response = await buildGrammar(regex);
+            setResult(response);
         } catch (error) {
             console.error('Error submitting regex:', error);
         } finally {
