@@ -1,8 +1,22 @@
-# React + Vite
+# Regex Grammar Analyzer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Для локального запуска понадобится Node.js https://nodejs.org/en
 
-Currently, two official plugins are available:
+## Шаги для запуска
+### 1. Установка зависимостей
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Находясь в директории regex-frontend/, введите:
+
+```bash
+npm install
+```
+
+---
+
+### 2. Запуск приложения
+
+```bash
+npm run dev
+```
+
+Приложение будет доступно по адресу http://localhost:5173/
